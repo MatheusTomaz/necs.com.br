@@ -1,0 +1,106 @@
+.text-primary-500{
+	color: #795548;
+}
+.text-primary-700{
+	color: #5D4037;
+}
+.text-accent{
+	color: #77B03D;
+}
+.btn-primary{
+	background-color: #795548;
+	color:#FFFFFF;
+}
+.btn-primary:hover, .btn-primary:focus{
+	background-color: #5D4037;
+	color:#FFFFFF;
+}
+.link-accent{
+	color: #77B03D;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #795548;
+  box-shadow: 0 1px 0 0 #795548;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #795548;
+}
+
+/* ================== NAV ==================*/
+#barra-superior{
+	background-color: #5D4037;
+}
+nav{
+	background-color: #795548;
+}
+
+
+/* ================== HOME ==================*/
+#home{
+	/*
+	background: rgba(192,231,250,1);
+	background: -moz-linear-gradient(top, rgba(192,231,250,1) 0%, rgba(236,232,205,1) 24%, rgba(236,232,205,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(192,231,250,1)), color-stop(24%, rgba(236,232,205,1)), color-stop(100%, rgba(236,232,205,1)));
+	background: -webkit-linear-gradient(top, rgba(192,231,250,1) 0%, rgba(236,232,205,1) 24%, rgba(236,232,205,1) 100%);
+	background: -o-linear-gradient(top, rgba(192,231,250,1) 0%, rgba(236,232,205,1) 24%, rgba(236,232,205,1) 100%);
+	background: -ms-linear-gradient(top, rgba(192,231,250,1) 0%, rgba(236,232,205,1) 24%, rgba(236,232,205,1) 100%);
+	background: linear-gradient(to bottom, rgba(192,231,250,1) 0%, rgba(236,232,205,1) 24%, rgba(236,232,205,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0e7fa', endColorstr='#ece8cd', GradientType=0 );
+	*/
+	background-color: #D7CCC8;
+
+}
+
+/* ================== INSCRICAO ==================*/
+.hr-700{
+	border: 1px solid #5D4037;
+}
+#inscricao{
+	background-color: #EFEBE9;
+}
+
+
+
+
+
+/* ================== PROGRAMAÇÃO ==================*/
+
+.tabs .tab a {
+	color: #795548;
+}
+.tabs .tab a.active {
+	background-color: transparent;
+	color: #5D4037;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+	background-color: transparent;
+	color: #5D4037;
+}
+.tabs .indicator {
+	background-color: #5D4037;
+}
