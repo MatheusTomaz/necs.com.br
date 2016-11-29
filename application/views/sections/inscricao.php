@@ -1,33 +1,28 @@
-<hr class="hr-700">
 	<div id="inscricao">
 		<div class="container">
 			<div class="row">
+				<div class="col l4 m6 s12">
+					<h3 class="text-accent titulo-sessao"><img src="<?php echo base_url('assets/img/inscrever.png'); ?>" class="responsive-img img-titulo"></h3>
+				</div>
 				<div class="col l12 m12 s12">
-					<h3 class="text-accent titulo-sessao"><i class="material-icons">create</i> Inscrição</h3>
-				</div>
-				<div class="col l6 m6 s12 centralizado">
-					<p class="caption justificado">Lorem ipsum dolor sit amet, non neque leo nunc turpis et vitae. Dolor dui feugiat aliquet consectetuer dui. Luctus porttitor rhoncus praesent mi lectus, non amet wisi sit venenatis, et a donec volutpat non magna. Urna ad in ut. Justo volutpat occaecati velit egestas maecenas sem, dolor justo a rhoncus. Sed amet suspendisse vitae. In nec non eleifend vehicula.</p>
-				</div>
-
-				<form class="col l6 m6 s12 centralizado caption">
-					<div class="row">
-						<h5 class="subtitulo-sessao">Já sou inscrito</h5>
-						<div class="input-field col s10 offset-s1 form-inscricao">
-							<input id="icon_prefix" type="text" class="validate">
-							<label for="icon_prefix" class="justificado">Usuário</label>
-						</div>
-						<div class="input-field col s10 offset-s1 form-inscricao">
-							
-							<input id="icon_password" type="password" class="validate">
-							<label for="icon_password" class="justificado">Senha</label>
-						</div>
-						
-						<a class="waves-effect waves-light btn btn-primary">acompanhar inscrição</a>
+					<div class="col l6 m6 s12 centralizado">
+						<p class="caption justificado">Cronograma:<br>20/01 - início das inscrições<br>20/03 - Último dia para submeter resumo <br>20/04 - Último dia de inscrições online <br> Outras coisas ... </p>
 					</div>
-					<h6>não sou inscrito <br><a class="link-accent" href=""> ME INSCREVER</a></h6>
-				</form>			
+					
+					<div class="col l6 m6 s12 centralizado">
+						<div class="row">
+							<h5 class="subtitulo-sessao">Já sou inscrito</h5>
+
+							<a href="#inscricao" class="waves-effect waves-light btn btn-primary btn-insc"><i class="material-icons left">vpn_key</i>ACOMPANHAR INSCRIÇÃO</a>
+						</div>
+						<div class="row">
+							<h5 class="subtitulo-sessao">Ainda não me inscrevi</h5>
+
+							<a href="#inscricao" class="waves-effect waves-light btn btn-primary btn-insc"><i class="material-icons left ">mode_edit</i>ME INSCREVER</a>
+						</div>
+					</div>
+				</div>				
 			</div>
 		</div>
 	</div>
-</div>
 

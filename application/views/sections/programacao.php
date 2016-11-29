@@ -1,31 +1,68 @@
-<hr class="hr-700">
-	<div id="programacao" class="container">
-		<div class="row">
-			<div class="col l12 m12 s12">
-				<h3 class="text-accent titulo-sessao"><i class="material-icons">schedule</i> Programação</h3>
-				<p class="caption text-marron justificado">Lorem ipsum dolor sit amet, non neque leo nunc turpis et vitae. Dolor dui feugiat aliquet consectetuer dui. Luctus porttitor rhoncus praesent mi lectus, non amet wisi sit venenatis, et a donec volutpat non magna. Urna ad in ut. Justo volutpat occaecati velit egestas maecenas sem, dolor justo a rhoncus. Sed amet suspendisse vitae. In nec non eleifend vehicula.</p>
-				<ul class="tabs">
-					<li class="tab col s3"><a href="#test1"> 01/05/2017</a></li>
-					<li class="tab col s3"><a href="#test2"> 02/05/2017</a></li>
-					<li class="tab col s3"><a href="#test3"> 03/05/2017</a></li>
-					<li class="tab col s3"><a href="#test4"> 04/05/2017</a></li>
-				</ul>
-			</div>
-			<div id="test1" class="col s12">
-				<h5><i class="material-icons">event</i> 01/05/2017</h5>
-				<p class="caption text-marron justificado">Lorem ipsum dolor sit amet, non neque leo nunc turpis et vitae. Dolor dui feugiat aliquet consectetuer dui. Luctus porttitor rhoncus praesent mi lectus, non amet wisi sit venenatis, et a donec volutpat non magna. Urna ad in ut. Justo volutpat occaecati velit egestas maecenas sem, dolor justo a rhoncus. Sed amet suspendisse vitae. In nec non eleifend vehicula.</p>
-			</div>
-			<div id="test2" class="col s12">
-				<h5><i class="material-icons">event</i> 02/05/2017</h5>
-				<p class="caption text-marron justificado">Lorem ipsum dolor sit amet, non neque leo nunc turpis et vitae. Dolor dui feugiat aliquet consectetuer dui. Luctus porttitor rhoncus praesent mi lectus, non amet wisi sit venenatis, et a donec volutpat non magna. Urna ad in ut. Justo volutpat occaecati velit egestas maecenas sem, dolor justo a rhoncus. Sed amet suspendisse vitae. In nec non eleifend vehicula.</p>
-			</div>
-			<div id="test3" class="col s12">
-				<h5><i class="material-icons">event</i> 03/05/2017</h5>
-				<p class="caption text-marron justificado">Lorem ipsum dolor sit amet, non neque leo nunc turpis et vitae. Dolor dui feugiat aliquet consectetuer dui. Luctus porttitor rhoncus praesent mi lectus, non amet wisi sit venenatis, et a donec volutpat non magna. Urna ad in ut. Justo volutpat occaecati velit egestas maecenas sem, dolor justo a rhoncus. Sed amet suspendisse vitae. In nec non eleifend vehicula.</p>
-			</div>
-			<div id="test4" class="col s12">
-				<h5><i class="material-icons">event</i> 04/05/2017</h5>
-				<p class="caption text-marron justificado">Lorem ipsum dolor sit amet, non neque leo nunc turpis et vitae. Dolor dui feugiat aliquet consectetuer dui. Luctus porttitor rhoncus praesent mi lectus, non amet wisi sit venenatis, et a donec volutpat non magna. Urna ad in ut. Justo volutpat occaecati velit egestas maecenas sem, dolor justo a rhoncus. Sed amet suspendisse vitae. In nec non eleifend vehicula.</p>
-			</div>
-		</div>	
+<div class="barra"></div>
+<div id="programacao" class="container">
+	<div class="row">
+		<div class="col l4 m6 offset-l8 offset-m6 s12">
+			<h3 class="text-accent titulo-sessao"><img src="<?php echo base_url('assets/img/programacao.png'); ?>" class="responsive-img img-titulo right"></h3>
+		</div>
+		<div class="col l12 m12 s12">		
+			<section id="cd-timeline" class="cd-container">
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="<?php echo base_url('assets/img/palestra.svg'); ?>" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<h2>Palestra</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+						<a href="#0" class="cd-read-more">Nome do Palestrante com Link</a>
+						<span class="cd-date">12/05/2015 - 08:00</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="<?php echo base_url('assets/img/cafe.svg'); ?>" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+					<div class="cd-timeline-content">
+						<h2>Coffee-Break</h2>
+						<span class="cd-date">12/05/2015 - 09:00</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="<?php echo base_url('assets/img/palestra.svg'); ?>" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<h2>Palestra</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+						<a href="#0" class="cd-read-more">Nome do Palestrante com Link</a>
+						<span class="cd-date">12/05/2015 - 09:15</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="<?php echo base_url('assets/img/almoco.svg'); ?>" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<h2>Almoço</h2>
+						<span class="cd-date">12/05/2015 - 12:00</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img">
+						<img src="<?php echo base_url('assets/img/mesa.svg'); ?>" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<h2>Mesa Redonda</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+						<a href="#0" class="cd-read-more">Nome do Palestrante com Link</a>
+						<span class="cd-date">12/05/2015 - 15:00</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+			</section> <!-- cd-timeline -->
+		</div>
 	</div>
+</div>
+<div class="barra"></div>

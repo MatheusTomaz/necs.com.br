@@ -2,7 +2,7 @@
 <ul id="slide-out" class="side-nav">
 	<li><div class="userView">
 		<div class="background">
-			<img src="<?php echo base_url('assets/img/background-home.jpg'); ?>">
+			<img src="<?php echo base_url('assets/img/background1.jpg'); ?>">
 		</div>
 		<a href="#!user"><img class="circle" src="<?php echo base_url('assets/img/logo.png'); ?>"></a>
 		<a href="#!name"><span class="text-marron name">II Simpósio de Ciência do Solo</span></a>

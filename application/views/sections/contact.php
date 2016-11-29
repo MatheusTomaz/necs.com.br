@@ -1,9 +1,8 @@
-<section>
-  <div id="parceiros">
-    <div class="container">
+  <div id="contato">
+    <div class="container contato-body">
       <div class="row">
-        <div class="col l12 m12 s12">
-          <h3 class="text-marron">Parceiros</h3>
+        <div class="col l4 m6 offset-l8 offset-m6 s12">
+        <h3 class="text-accent titulo-sessao"><img src="<?php echo base_url('assets/img/contato.png'); ?>" class="responsive-img img-titulo right"></h3>
         </div>
         <div class="col l12 m12 s12 justificado">
          <?php echo validation_errors(); ?>
@@ -30,7 +29,7 @@
               <label for="message">Mensagem</label>
             </div>
           </div>
-          <button type="submit" name="enviar" value="enviar" class="btn">Enviar Mensagem</button>
+          <button type="submit" name="enviar" value="enviar" class="waves-effect waves-light btn btn-primary right">Enviar Mensagem</button>
           <?php echo $this->session->flashdata('msg'); ?>
 
         </form>
@@ -39,10 +38,4 @@
   </div>
 </div>
 </div>
-<script type="text/javascript">
 
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
-</script>
-</section>

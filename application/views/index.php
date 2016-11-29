@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="<?=base_url('assets/css/materialize.min.css')?>">
 	<link rel="stylesheet" href="<?=base_url('assets/css/style.css')?>">
 	<link rel="stylesheet" href="<?=base_url('assets/css/colors.css')?>">
+
 	<!--Import Google Icon Font-->
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script src="<?=base_url('assets/js/materialize.min.js')?>"></script>
+	<script src="<?=base_url('assets/js/main.js')?>"></script>
 </head>
 <body>
 	<header>
@@ -32,7 +34,5 @@
 	<?php
 	$this->load->view('sections/contact');
 	$this->load->view('sections/footer');
-	?>
-	
-</body>
+	?></body>
 </html>
