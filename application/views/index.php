@@ -19,20 +19,18 @@
 <body>
 	<header>
 		<?php 
-
 		$this->load->view('sections/home');
 		?>
 	</header>
-	
 	<main>
 		<?php 
 		$this->load->view('sections/inscricao');
 		$this->load->view('sections/programacao');
 		$this->load->view('sections/parceiros');
+		$this->load->view('sections/contact');
 		?>
 	</main>
 	<?php
-	$this->load->view('sections/contact');
 	$this->load->view('sections/footer');
 	?></body>
 </html>
