@@ -85,7 +85,6 @@ nav{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0e7fa', endColorstr='#ece8cd', GradientType=0 );
 	*/
 	background-color: #D7CCC8;
-	background: url(../img/background.jpg) no-repeat bottom center;
 	background-size:cover;
 	position:relative;
 	height:100vh;

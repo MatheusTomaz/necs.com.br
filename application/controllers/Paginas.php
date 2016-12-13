@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Paginas extends CI_Controller {
+class Main extends CI_Controller {
 
 	public function index()
 	{
@@ -21,6 +21,6 @@ class Paginas extends CI_Controller {
 		$dados = array(
 			'titulo' => 'NECS | Inscrição'
 			);
-		$this->load->view('inscrever',$dados);
+		$this->load->view('inscricao/inscricao',$dados);
 	}
 }

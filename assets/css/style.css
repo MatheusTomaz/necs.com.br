@@ -117,7 +117,9 @@ nav{
 	}
 }
 .btn-insc{
-	width: 55%;
+ width: 70%;
+ min-height: 65px;
+ padding: 15px 10px;
 }
 
 
@@ -555,7 +557,7 @@ nav{
   }
 }
 @media screen and (max-width: 992px) {
-    .contato-body{
+  .contato-body{
     padding: 130px 20px 20px 0px;
   }
   #contato{
@@ -563,7 +565,7 @@ nav{
   }
 }
 @media screen and (max-width: 600px) {
-    .contato-body{
+  .contato-body{
     padding: 70px 20px 20px 0px;
   }
   #contato{
@@ -575,4 +577,28 @@ nav{
 footer.page-footer {
   margin-top: 0px;
 
+}
+
+
+
+
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+#animate-area {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/sky.jpg);
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 40s linear infinite;
 }
