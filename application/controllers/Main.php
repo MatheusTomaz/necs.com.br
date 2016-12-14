@@ -21,6 +21,14 @@ class Main extends CI_Controller {
 		$dados = array(
 			'titulo' => 'NECS | Inscrição'
 			);
-		$this->load->view('inscricao/inscricao',$dados);
+		$this->load->view('inscricao',$dados);
+	}
+	public function patrocinio()
+	{
+
+		$dados = array(
+			'titulo' => 'NECS | Patrocínio'
+			);
+		$this->load->view('patrocinio',$dados);
 	}
 }
