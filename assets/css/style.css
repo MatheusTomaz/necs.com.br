@@ -49,6 +49,27 @@ nav{
 #titulo-home{
 	padding: 2% 18%;
 }
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+#animate-area {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height:100vh;
+  background-image: url(../img/sky.jpg);
+  position: relative;
+  background-size: contain;
+  background-repeat: repeat-x;
+  animation: animatedBackground 40s linear infinite;
+}
+
 @media screen and (max-width: 1400px) {
   #logo-home{
     padding: 1% 40%;
@@ -70,6 +91,12 @@ nav{
 		padding: 2% 20% ;
 		width: 100%;
 	}
+  #animate-area {
+   
+    position: relative;
+    background-size: cover;
+
+  }
 }
 @media screen and (max-width: 600px) {
 	#logo-home{
@@ -81,11 +108,15 @@ nav{
 		padding: 4% 10%;
 		width: 95%;
 	}
+  #animate-area {
+   
+    position: relative;
+    background-size: cover;
+
+  }
 }
 
-#btn-meinscrever{
-	margin: 20px 2px;
-}
+
 
 
 
@@ -583,22 +614,3 @@ footer.page-footer {
 
 
 
-@keyframes animatedBackground {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 100% 0;
-  }
-}
-
-#animate-area {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/sky.jpg);
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: animatedBackground 40s linear infinite;
-}
