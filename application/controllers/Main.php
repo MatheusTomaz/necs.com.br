@@ -31,4 +31,20 @@ class Main extends CI_Controller {
 			);
 		$this->load->view('patrocinio',$dados);
 	}
+	public function login()
+	{
+		$this->load->helper(array('form'));
+
+		$this->load->library(array('form_validation','session'));
+
+		$alerta = array(
+			"class" => "red-text", 
+			'mensagem' => "".validation_errors());	
+	
+		$dados = array(
+			'titulo' => 'Login | SCS UFLA',
+			'alerta' => $alerta);
+		
+		$this->load->view('login',$dados);
+	}
 }

@@ -15,7 +15,7 @@
 							<div class="row">
 								<h5 class="subtitulo-sessao">Já sou inscrito</h5>
 
-								<a href="#inscricao" class="waves-effect waves-light btn btn-primary btn-insc"><i class="material-icons left">vpn_key</i>ACOMPANHAR INSCRIÇÃO</a>
+								<a href="<?php echo base_url('main/login');?>" class="waves-effect waves-light btn btn-primary btn-insc"><i class="material-icons left">vpn_key</i>ACOMPANHAR INSCRIÇÃO</a>
 							</div>
 							<div class="row">
 								<h5 class="subtitulo-sessao">Ainda não me inscrevi</h5>
