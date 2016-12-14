@@ -14,7 +14,7 @@
 
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script src="<?=base_url('assets/js/materialize.min.js')?>"></script>
-	<script src="<?=base_url('assets/js/main.js')?>"></script>
+	
 </head>
 <body>
 	<header>
@@ -26,7 +26,7 @@
 		<?php 
 		$this->load->view('sections/inscricao');
 		$this->load->view('sections/programacao');
-		$this->load->view('sections/parceiros');
+		
 		$this->load->view('sections/contact');
 		?>
 	</main>
