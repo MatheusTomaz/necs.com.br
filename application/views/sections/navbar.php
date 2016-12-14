@@ -40,7 +40,7 @@
 			<a href="#" data-activates="slide-out" class="button-collapse text-marron"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
 				<li><a class="text-marron" href="">Home</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('Paginas/inscrever');?>">Inscrição</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('Main/inscrever');?>">Inscrição</a></li>
 				<li><a class="text-marron" href="">Programação</a></li>
 				<li><a class="text-marron" href="">Parceiros</a></li>
 				<li><a class="text-marron" href="">Contato</a></li>
