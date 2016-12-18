@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'BRLNSR';
+  src: url('../fonts/BRLNSR/BRLNSR.eot');
+  src: local('BRLNSR'), url('../fonts/BRLNSR/BRLNSR.woff') format('woff'), url('../fonts/BRLNSR/BRLNSR.ttf') format('truetype');
+}
+.text-theme{
+  font-family: 'BRLNSR';
+}
 .titulo-sessao{
 	font-weight: 300;
 }
@@ -92,7 +100,7 @@ nav{
 		width: 100%;
 	}
   #animate-area {
-   
+
     position: relative;
     background-size: cover;
 
@@ -109,7 +117,7 @@ nav{
 		width: 95%;
 	}
   #animate-area {
-   
+
     position: relative;
     background-size: cover;
 
@@ -609,6 +617,83 @@ footer.page-footer {
   margin-top: 0px;
 
 }
+
+
+/* ================== PATROCINIO ==================*/
+.patrocinio-titulo {
+  font-size: 28px;
+  text-align: center;
+  color: #795548;
+  margin: 20px 0px;
+}
+.space-patrocinador{
+  margin: 50px 0px;
+}
+#invista-patrocinio{
+  background-color: #5D4037;
+  padding: 20px 10px;
+   font-weight: 300;
+}
+#popup-invista{
+  background-color: #5D4037;
+  padding: 25px 10px;
+  position: fixed;
+  text-align: center;
+  bottom: 20%;
+  right: 10px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  z-index: 3;
+  font-weight: 300;
+  border: 2px solid #FFFFFF;
+}
+
+#popup-invista > p{
+  color: #FFFFFF;
+}
+#popup-invista > p > strong{
+  color: #77B03D;
+}
+
+#invista-patrocinio > h4{
+  color: #77B03D;
+  font-size: 21px;
+}
+#invista-patrocinio > p{
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: justify;
+}
+a{
+  color: #77B03D; 
+}
+
+
+/* ================== HOSPEDAGEM ==================*/
+.hospedagem-titulo{
+font-size: 28px;
+  text-align: center;
+  color: #795548;
+    margin: 40px 0px;
+}
+.hospedagem-hotel{
+  font-size: 23px;
+  text-align: justify;
+  color: #795548;
+}
+.hospedagem-hotel > i{
+  font-size: 19px;
+  text-align: justify;
+  color: #77B03D;
+}
+.hospedagem-info{
+    font-size: 17px;
+  text-align: justify;
+  color: #795548;
+  padding: 5px 30px;
+}
+
 
 
 

@@ -11,7 +11,7 @@ class Main extends CI_Controller {
 		$this->load->library(array('form_validation','session'));
 
 		$dados = array(
-			'titulo' => 'NECS | Página Inicial'
+			'titulo' => 'II SCS | Página Inicial'
 			);
 		$this->load->view('index',$dados);
 	}
@@ -19,15 +19,23 @@ class Main extends CI_Controller {
 	{
 
 		$dados = array(
-			'titulo' => 'NECS | Inscrição'
+			'titulo' => 'II SCS | Inscrição'
 			);
 		$this->load->view('inscricao',$dados);
+	}
+	public function hospedagem()
+	{
+
+		$dados = array(
+			'titulo' => 'II SCS | Hospedagem'
+			);
+		$this->load->view('hospedagem',$dados);
 	}
 	public function patrocinio()
 	{
 
 		$dados = array(
-			'titulo' => 'NECS | Patrocínio'
+			'titulo' => 'II SCS | Patrocínio'
 			);
 		$this->load->view('patrocinio',$dados);
 	}

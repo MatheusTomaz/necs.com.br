@@ -35,15 +35,21 @@
 <div class="navbar-fixed">
 	<div id="barra-superior"></div>
 	<nav>
-		<div class="nav-wrapper container">
+		<div class="nav-wrapper container-fluid">
 			<a href="#!" class="brand-logo"><img class="logo-bar" src="<?php echo base_url('assets/img/logo-barra.png'); ?>"></a>
 			<a href="#" data-activates="slide-out" class="button-collapse text-marron"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
-				<li><a class="text-marron" href="">Home</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/index');?>">Home</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Organização</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Programação</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Minicursos</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Palestrantes</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Inscrição</a></li>
-				<li><a class="text-marron" href="">Programação</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Trabalhos</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Local</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/hospedagem');?>">Hospedagem</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/patrocinio');?>">Patrocínio</a></li>
-				<li><a class="text-marron" href="">Contato</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Contato</a></li>
 			</ul>
 			
 		</div>
