@@ -23,6 +23,14 @@ class Main extends CI_Controller {
 			);
 		$this->load->view('inscricao',$dados);
 	}
+	public function local()
+	{
+
+		$dados = array(
+			'titulo' => 'II SCS | Local'
+			);
+		$this->load->view('local',$dados);
+	}
 	public function hospedagem()
 	{
 

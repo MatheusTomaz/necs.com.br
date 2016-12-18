@@ -46,7 +46,7 @@
 				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Palestrantes</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Inscrição</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Trabalhos</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Local</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/local');?>">Local</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/hospedagem');?>">Hospedagem</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/patrocinio');?>">Patrocínio</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Contato</a></li>

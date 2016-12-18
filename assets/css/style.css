@@ -632,7 +632,7 @@ footer.page-footer {
 #invista-patrocinio{
   background-color: #5D4037;
   padding: 20px 10px;
-   font-weight: 300;
+  font-weight: 300;
 }
 #popup-invista{
   background-color: #5D4037;
@@ -672,10 +672,10 @@ a{
 
 /* ================== HOSPEDAGEM ==================*/
 .hospedagem-titulo{
-font-size: 28px;
+  font-size: 28px;
   text-align: center;
   color: #795548;
-    margin: 40px 0px;
+  margin: 40px 0px;
 }
 .hospedagem-hotel{
   font-size: 23px;
@@ -688,12 +688,30 @@ font-size: 28px;
   color: #77B03D;
 }
 .hospedagem-info{
-    font-size: 17px;
+  font-size: 17px;
   text-align: justify;
   color: #795548;
   padding: 5px 30px;
 }
 
+/* ================== LOCAL ==================*/
+.local-titulo{
+  font-size: 28px;
+  text-align: center;
+  color: #795548;
+  margin: 20px 0px;
+}
+.local-titulo-superior{
+  font-size: 38px;
+  text-align: center;
+  color: #795548;
+  margin: 30px 0px;
+}
+.local-info{
+  font-size: 19px;
+  text-align: center;
+  color: #77B03D;
+}
 
 
 
