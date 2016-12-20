@@ -19,7 +19,7 @@
 <body>
 	<header>
 		<?php 
-		$this->load->view('sections/home');
+		$this->load->view('sections/navbar');
 		?>
 	</header>
 	<main>

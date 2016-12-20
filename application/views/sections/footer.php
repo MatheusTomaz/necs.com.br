@@ -2,23 +2,24 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">NECS - Núcleo de Estudos em Ciência do Solo</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <img src="<?php echo base_url('assets/img/logo-rodape.png'); ?>" class="responsive-img">
+                <h5 class="white-text text-theme center">II Simpósio em Ciência dos Solos</h5>
+                <p class="grey-text text-lighten-4 center">Interfaces, desafios e inovação.</p>
               </div>
               <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Mais Informações</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="<?php echo base_url('main/index');?>">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="<?php echo base_url('main/organizao');?>">Organização</a></li>
+                  <li><a class="grey-text text-lighten-3" href="<?php echo base_url('main/inscricao');?>">Inscrição</a></li>
+                  <li><a class="grey-text text-lighten-3" href="<?php echo base_url('main/contato');?>">Contato</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2016 Copyright Text
+            © 2016 Todos os Direitos Reservados a NECS
             <a class="grey-text text-lighten-4 right" href="http://www.roboticajr.com.br">Desenvolvido por Robótica Jr.</a>
             </div>
           </div>

@@ -140,14 +140,6 @@ nav{
     background: #77B03D;
     color: white;
 }
-/* ================== CONTATO ==================*/
-#contato{
-	background-color: #D7CCC8;
-	background: url(../img/background3.jpg) no-repeat bottom center;
-	background-size:cover;
-	position:relative;
-}
-
 
 /* ================== RODAPE ==================*/
 footer.page-footer{

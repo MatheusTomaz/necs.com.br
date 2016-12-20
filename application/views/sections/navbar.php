@@ -6,29 +6,75 @@
 		</div>
 		<a href="#!user"><img class="circle" src="<?php echo base_url('assets/img/logo.png'); ?>"></a>
 		<a href="#!name"><span class="text-marron name">II Simpósio de Ciência do Solo</span></a>
-		<a href="#!email"><span class="text-marron email">01 a 05 de Maio</span></a>
+		<a href="#!email"><span class="text-marron email">09 a 12 de Maio de 2017</span></a>
 	</div></li>
-	<li><a href="">
+
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/index');?>">
 		<i class="material-icons">home</i>
-		Home</a>
+		Home
+		</a>
 	</li>
-	<li><a href="<?php echo base_url('Paginas/inscrever');?>"><i class="material-icons">mode_edit</i>
-		Inscrição</a>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/organizacao');?>">
+		<i class="material-icons">group</i>
+		Organização
+		</a>
 	</li>
-	<li><a href="">
-		<i class="material-icons">query_builder</i>
-		Programação</a>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/programacao');?>">
+			<i class="material-icons">query_builder</i>
+			Programação
+		</a>
 	</li>
-	<li><a href="">
-		<i class="material-icons">supervisor_account</i>
-		Parceiros</a>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/minicursos');?>">
+		<i class="material-icons">pan_tool</i>
+		Minicursos
+		</a>
 	</li>
-	<li><a href="">
-		<i class="material-icons">contact_phone</i>
-		Contato</a>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/palestrantes');?>">
+		<i class="material-icons">person</i>
+		Palestrantes
+		</a>
 	</li>
-	<li><div class="divider"></div></li>
-	<li><a class="subheader">Outros</a></li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/inscrever');?>">
+			<i class="material-icons">mode_edit</i>
+			Inscrição
+		</a>
+	</li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/trabalhos');?>">
+		<i class="material-icons">library_books</i>
+		Trabalhos
+		</a>
+	</li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/local');?>">
+			<i class="material-icons">place</i>
+			Local
+		</a>
+	</li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/hospedagem');?>">
+			<i class="material-icons">hotel</i>
+			Hospedagem
+		</a>
+	</li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/patrocinio');?>">
+			<i class="material-icons">supervisor_account</i>
+			Patrocínio
+		</a>
+	</li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/contato');?>">
+			<i class="material-icons">contact_phone</i>
+			Contato
+		</a>
+	</li>
 
 </ul>
 
@@ -40,16 +86,16 @@
 			<a href="#" data-activates="slide-out" class="button-collapse text-marron"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
 				<li><a class="text-marron" href="<?php echo base_url('main/index');?>">Home</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Organização</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Programação</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Minicursos</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Palestrantes</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/organizacao');?>">Organização</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/programacao');?>">Programação</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/minicursos');?>">Minicursos</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/palestrantes');?>">Palestrantes</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Inscrição</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Trabalhos</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/trabalhos');?>">Trabalhos</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/local');?>">Local</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/hospedagem');?>">Hospedagem</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/patrocinio');?>">Patrocínio</a></li>
-				<li><a class="text-marron" href="<?php echo base_url('main/inscrever');?>">Contato</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/contato');?>">Contato</a></li>
 			</ul>
 			
 		</div>

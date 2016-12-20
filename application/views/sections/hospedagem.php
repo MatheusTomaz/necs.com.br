@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col s12 m10 offset-l2 l8 offset-m1 center">
 					<img src="<?php echo base_url('assets/img/titulo_home.jpg'); ?>" class="responsive-img">
-					<p class="waves-effect waves-light btn btn-primary btn-large space-patrocinador"> <i class="material-icons">hotel</i> HOSPEDAGEM</p>
+					<p class="waves-effect waves-light btn btn-primary btn-large space-patrocinador"> <i class="material-icons left">hotel</i> HOSPEDAGEM</p>
 				</div>
 			</div>
 		</div>

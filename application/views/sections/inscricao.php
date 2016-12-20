@@ -1,93 +1,130 @@
-	<div id="inscricao">
-		<div class="container">
-			<div class="row">
-				<div class="col l4 m6 s12">
-					<h3 class="text-accent titulo-sessao"><img src="<?php echo base_url('assets/img/inscrever.png'); ?>" class="responsive-img img-titulo"></h3>
-				</div>
-				<div class="col l12 m12 s12">
-					<div class="col l6 m6 s12 centralizado">
-						<p class="caption justificado">A confirmação da inscrição será feita somente após a efetivação do pagamento do boleto bancário gerado no sistema do evento.
-
-							O pagamento da inscrição garante acesso à programação científica, visita aos estandes, coquetel de abertura, coffee breaks, certificado e pasta contendo material do evento. </p>
-						</div>
-
-						<div class="col l6 m6 s12 centralizado">
-							<div class="row">
-								<h5 class="subtitulo-sessao">Já sou inscrito</h5>
-
-								<a href="<?php echo base_url('main/login');?>" class="waves-effect waves-light btn btn-primary btn-insc"><i class="material-icons left">vpn_key</i>ACOMPANHAR INSCRIÇÃO</a>
-							</div>
-							<div class="row">
-								<h5 class="subtitulo-sessao">Ainda não me inscrevi</h5>
-
-								<a href="#inscricao" class="waves-effect waves-light btn btn-primary btn-insc"><i class="material-icons left ">mode_edit</i>ME INSCREVER</a>
-							</div>
-						</div>
-					</div>				
-				</div>
+	<section>
+		<div id="inscricao">
+			<div class="container">
 				<div class="row">
-				<h4>Preços</h4>
-					<table>
+					<div class="col s12 m10 offset-l2 l8 offset-m1 center">
+						<img src="<?php echo base_url('assets/img/titulo_home.jpg'); ?>" class="responsive-img">
+						<p class="waves-effect waves-light btn-primary btn-large space-patrocinador"> <i class="material-icons left">edit</i> Inscrição</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<hr>
+				<h4 class="text-theme inscricao-titulo">Inscrição</h4>
+				<div class="row inscricao-text">
+					<div class="col s12 m6 l6">
+						<h5>A confirmação da inscrição será feita somente após a efetivação do pagamento no sistema do evento.<br>O pagamento da inscrição garante acesso à programação científica (palestras), coquetel de abertura, coffee breaks, certificado e pasta contendo material do evento.</h5>
+					</div>
+					<div class="col s12 m6 l6">
+						<div class="row">
+							<h5>Já sou inscrito</h5>
+							<a href="<?php echo base_url('main/login');?>" class="waves-effect waves-light btn-large btn-primary btn-insc disabled">ACOMPANHAR INSCRIÇÃO</a>
+						</div>
+						<div class="row">
+							<h5>Ainda não me inscrevi</h5>
+							<a href="#inscricao" class="waves-effect waves-light btn-large btn-primary btn-insc disabled">ME INSCREVER</a>
+						</div>
+						<div class="row">
+							<span>Inscrições à partir de 20/01/2017</span>
+						</div>
+					</div>
+					<div class="col s12 m12 l12">
+						<h5><strong>Comprovantes</strong>: Estudantes de graduação e pós graduação: enviar comprovante de matrícula pelo sistema do evento. <br> <strong>Política de cancelamento</strong>: Os cancelamentos solicitados antes de 20 de março de 2016 serão reembolsados, porém será cobrada uma taxa de R$ 20,00 para cobrir custos administrativos. Nenhum reembolso será aplicável após esta data.</h5>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<h4 class="text-theme inscricao-titulo">Tabela de Preços</h4>
+					<h4 class="text-theme inscricao-subtitulo"><br>Inscrição</h4>
+					<table class="bordered highlight responsive-table">
 						<thead>
 							<tr>
-								<th data-field="name">Categoria</th>
-								<th data-field="price">Data 1</th>
-								<th data-field="price">Data 2</th>
-								<th data-field="price">Data 3</th>
-								<th data-field="price">Data 4</th>
+								<th data-field="name"></th>
+								<th data-field="price">Até 20/03</th>
+								<th data-field="price">Até 20/04</th>
+								<th data-field="price">Até 09/05</th>
 							</tr>
 						</thead>
 
 						<tbody>
 							<tr>
-								<td>Estudantes de graduação - Sócio SBCS</td>
-								<td>R$ 100,00</td>
-								<td>R$ 120,00</td>
-								<td>R$ 140,00</td>
-								<td>R$ 160,00</td>
+								<td>Graduação</td>
+								<td>R$ 50,00</td>
+								<td>R$ 60,00</td>
+								<td>R$ 70,00</td>
 							</tr>
 							<tr>
-								<td>Estudantes de graduação - Não sócio SBCS</td>
-								<td>R$ 100,00</td>
-								<td>R$ 120,00</td>
-								<td>R$ 140,00</td>
-								<td>R$ 160,00</td>
+								<td>Graduação com submissão de trabalho</td>
+								<td>R$ 55,00</td>
+								<td>R$ -</td>
+								<td>R$ -</td>
 							</tr>
 							<tr>
-								<td>Estudantes de pós-graduação - Sócio SBCS</td>
-								<td>R$ 100,00</td>
-								<td>R$ 120,00</td>
-								<td>R$ 140,00</td>
-								<td>R$ 160,00</td>
+								<td>Pós graduação</td>
+								<td>R$ 60,00</td>
+								<td>R$ 70,00</td>
+								<td>R$ 80,00</td>
 							</tr>
 							<tr>
-								<td>Estudantes de pós-graduação - Não sócio SBCS</td>
-								<td>R$ 100,00</td>
-								<td>R$ 120,00</td>
-								<td>R$ 140,00</td>
-								<td>R$ 160,00</td>
+								<td>Pós graduação com submissão de trabalho</td>
+								<td>R$ 70,00</td>
+								<td>R$ -</td>
+								<td>R$ -</td>
 							</tr>
 							<tr>
-								<td>Profissionais - Sócio SBCS</td>
+								<td>Professores/Profissionais</td>
+								<td>R$ 80,00</td>
+								<td>R$ 90,00</td>
 								<td>R$ 100,00</td>
-								<td>R$ 120,00</td>
-								<td>R$ 140,00</td>
-								<td>R$ 160,00</td>
 							</tr>
 							<tr>
-								<td>Profissionais - Não sócio SBCS</td>
-								<td>R$ 100,00</td>
-								<td>R$ 120,00</td>
-								<td>R$ 140,00</td>
-								<td>R$ 160,00</td>
+								<td>Professores/Profissionais com submissão de trabalho</td>
+								<td>R$ 90,00</td>
+								<td>R$ -</td>
+								<td>R$ -</td>
 							</tr>
 						</tbody>
 					</table>
-				</div>
 
-Comprovantes:
-- SÓCIO SBCS: com anuidade 2016 paga (reconhecido eletronicamente)
-- ESTUDANTES: enviar comprovante de matrícula para o e-mail fertbio2016@fbeventos.com ou pelo sistema do evento
+					<h4 class="text-theme inscricao-subtitulo"><br><br>Minicurso</h4>
+					<table class="bordered highlight responsive-table">
+						<thead>
+							<tr>
+								<th data-field="name"></th>
+								<th data-field="price">Valores</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>Princípios básicos para formulação e mistura de fertilizantes <br>(Duração: 4 horas)</td>
+								<td>R$ 20,00</td>
+								
+							</tr>
+							<tr>					
+								<td>Mapeamento digital de solos <br>(Duração: 4 horas)</td>
+								<td>R$ 20,00</td>
+							</tr>
+							<tr>							
+								<td>Influência da nutrição mineral na qualidade dos produtos agrícolas <br>(Duração: 4 horas)</td>
+								<td>R$ 20,00</td>
+							</tr>
+							<tr>
+								<td>Potencialidades do uso de veículo aéreo não tripulado (Vant) no monitoramento da erosão hídrica e da cobertura vegetal <br>(Duração: 4 horas)</td>
+								<td>R$ 20,00</td>
+							</tr>
+							<tr>
+								<td>Geoestatística aplicada à Ciência do Solo <br>(Duração: 8 horas)</td>
+								<td>R$ 30,00</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="row campo-nota-inscricao">
+						<span class="nota-inscricao">Serão disponibilizadas 40 vagas por minicurso.</span>
+					</div>
+					
+				</div>
 			</div>
 		</div>
+	</section>
 

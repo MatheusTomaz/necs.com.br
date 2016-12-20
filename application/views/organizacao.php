@@ -19,12 +19,12 @@
 <body>
 	<header>
 		<?php 
-		$this->load->view('sections/navbar'); 
+		$this->load->view('sections/navbar');
 		?>
 	</header>
 	<main>
 		<?php 
-		$this->load->view('sections/patrocinio');
+		$this->load->view('sections/organizacao');
 		?>
 	</main>
 	<footer>
@@ -33,4 +33,3 @@
 		?>
 	</footer>
 </body>
-</html>

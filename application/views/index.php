@@ -12,7 +12,7 @@
 	<!--Import Google Icon Font-->
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script src="<?=base_url('assets/js/jquery.js')?>"></script>
 	<script src="<?=base_url('assets/js/materialize.min.js')?>"></script>
 	
 </head>
@@ -24,10 +24,7 @@
 	</header>
 	<main>
 		<?php 
-		$this->load->view('sections/inscricao');
-		$this->load->view('sections/programacao');
 		
-		$this->load->view('sections/contact');
 		?>
 	</main>
 	<?php
