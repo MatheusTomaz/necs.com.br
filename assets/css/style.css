@@ -4,7 +4,7 @@
   src: local('BRLNSR'), url('../fonts/BRLNSR/BRLNSR.woff') format('woff'), url('../fonts/BRLNSR/BRLNSR.ttf') format('truetype');
 }
 .text-theme{
-  font-family: 'BRLNSR';
+    font-family: 'BRLNSR';
 }
 .titulo-sessao{
 	font-weight: 300;
@@ -29,7 +29,7 @@ nav{
 .logo-bar{
 	height: 35px;
 	margin-top: 12px;
-  display: none;
+    display: none;
 }
 #barra-superior{
 	position: fixed;
@@ -182,7 +182,7 @@ footer.page-footer {
   text-align: justify;
 }
 a{
-  color: #77B03D; 
+  color: #77B03D;
 }
 
 
@@ -278,6 +278,12 @@ a{
   margin: 20px;
 }
 
+.btn-inscricao{
+    margin: 40px 0 40px 0;
+
+    width: 100%;
+}
+
 
 /* ================== CONTATO ==================*/
 
@@ -323,11 +329,11 @@ a{
 /* ================== MINICURSO ==================*/
 .data-minicurso{
  color: #77B03D;
- font-size: 20px; 
+ font-size: 20px;
 
 }
 .numero-minicurso{
-  font-size: 18px; 
+  font-size: 18px;
   margin-top: 40px;
 }
 .titulo-minicurso{

@@ -79,11 +79,19 @@ class Main extends CI_Controller {
 			);
 		$this->load->view('patrocinio',$dados);
 	}
-	
+    public function cadastroParticipante()
+    {
+
+        $dados = array(
+            'titulo' => 'II SCS | Inscrição'
+            );
+        $this->load->view('cadastroParticipante',$dados);
+    }
+
 	public function contato()
 	{
 		//Vetor que recebe parametros de aviso.
-		$alerta = null;	
+		$alerta = null;
 
 		$this->load->helper(array('form'));
 
@@ -116,18 +124,18 @@ class Main extends CI_Controller {
 
 			$this->email->subject('Contato Site');
 
-			$mesg = $this->load->view('mail/index',$dados_contato,true); 
+			$mesg = $this->load->view('mail/index',$dados_contato,true);
 
 			$this->email->message($mesg);
 			if($this->email->send()){
 				$alerta = array(
-					"class" => "green", 
+					"class" => "green",
 					'mensagem' => "Mensagem Enviada<br>Em breve entraremos em contato.");
 			}
 			else{
 				$alerta = array(
-					"class" => "red", 
-					'mensagem' => "Atenção!<br>Não foi possível enviar a mensagem no momento. Tente novamente mais tarde.");	
+					"class" => "red",
+					'mensagem' => "Atenção!<br>Não foi possível enviar a mensagem no momento. Tente novamente mais tarde.");
 			}
 		}
 		$dados = array(
@@ -147,8 +155,8 @@ class Main extends CI_Controller {
 		$this->load->library(array('form_validation','session'));
 
 		$alerta = array(
-			"class" => "red-text", 
-			'mensagem' => "".validation_errors());	
+			"class" => "red-text",
+			'mensagem' => "".validation_errors());
 
 		$dados = array(
 			'titulo' => 'Login | SCS UFLA',
