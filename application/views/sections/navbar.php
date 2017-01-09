@@ -6,7 +6,7 @@
 		</div>
 		<a href="#!user"><img class="circle" src="<?php echo base_url('assets/img/logo.png'); ?>"></a>
 		<a href="#!name"><span class="text-marron name">II Simpósio de Ciência do Solo</span></a>
-		<a href="#!email"><span class="text-marron email">09 a 12 de Maio de 2017</span></a>
+		<a href="#!email"><span class="text-marron email">9 a 12 de Maio de 2017</span></a>
 	</div></li>
 
 	<li>
@@ -19,6 +19,12 @@
 		<a class="text-marron" href="<?php echo base_url('main/organizacao');?>">
 		<i class="material-icons">group</i>
 		Organização
+		</a>
+	</li>
+	<li>
+		<a class="text-marron" href="<?php echo base_url('main/apresentacao');?>">
+		<i class="material-icons">star</i>
+		Apresentação
 		</a>
 	</li>
 	<li>
@@ -87,6 +93,7 @@
 			<ul class="right hide-on-med-and-down">
 				<li><a class="text-marron" href="<?php echo base_url('main/index');?>">Home</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/organizacao');?>">Organização</a></li>
+				<li><a class="text-marron" href="<?php echo base_url('main/apresentacao');?>">Apresentação</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/programacao');?>">Programação</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/minicursos');?>">Minicursos</a></li>
 				<li><a class="text-marron" href="<?php echo base_url('main/palestrantes');?>">Palestrantes</a></li>

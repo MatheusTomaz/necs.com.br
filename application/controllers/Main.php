@@ -23,6 +23,14 @@ class Main extends CI_Controller {
 			);
 		$this->load->view('organizacao',$dados);
 	}
+	public function apresentacao()
+	{
+
+		$dados = array(
+			'titulo' => 'II SCS | Apresentação'
+			);
+		$this->load->view('apresentacao',$dados);
+	}
 	public function minicursos()
 	{
 
@@ -54,6 +62,14 @@ class Main extends CI_Controller {
 			'titulo' => 'II SCS | Trabalhos'
 			);
 		$this->load->view('trabalhos',$dados);
+	}
+	public function palestrantes()
+	{
+
+		$dados = array(
+			'titulo' => 'II SCS | Palestrantes'
+			);
+		$this->load->view('palestrantes',$dados);
 	}
 	public function local()
 	{

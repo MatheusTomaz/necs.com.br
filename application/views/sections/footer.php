@@ -3,8 +3,8 @@
             <div class="row">
               <div class="col l6 s12">
                 <img src="<?php echo base_url('assets/img/logo-rodape.png'); ?>" class="responsive-img">
-                <h5 class="white-text text-theme center">II Simpósio em Ciência dos Solos</h5>
-                <p class="grey-text text-lighten-4 center">Interfaces, desafios e inovação.</p>
+                <h5 class="white-text text-theme center">II Simpósio de Ciência do Solo</h5>
+                <p class="grey-text text-lighten-4 center">Interfaces, desafios e inovações.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Mais Informações</h5>

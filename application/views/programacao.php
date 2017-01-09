@@ -25,6 +25,7 @@
 	<main>
 		<?php 
 		$this->load->view('sections/programacao');
+		$this->load->view('sections/patrocinio');
 		?>
 	</main>
 	<footer>
