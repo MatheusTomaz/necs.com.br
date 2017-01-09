@@ -13,17 +13,35 @@
 				<div class="row">
 					<div class="col s12 m12 l12">
 						<h4 class="text-theme titulo-programacao">Confira aqui a programação dos minicursos</h4>
-
-						<div>
-							<p class="numero-minicurso">Minicurso 01</p>
-							<p class="data-minicurso">10 de Maio de 2017 - Quarta-feira / 14h00min às 18h00min<br>
-								11 de Maio de 2017 - Quinta-feira / 14h00min às 18h00min
-							</p>
-							<p class="titulo-minicurso">Título: “Geoestatística aplicada à Ciência do Solo”</p>
-							<p class="prelecionista-minicurso">Prof.ª responsável: Drª Michele Duarte de Menezes <br>Prelecionista: Pedro Veloso Gomes Batista e Fábio Arnaldo Pomar Avalos</p>
-							<p class="carga-minicurso">Carga horária total: 8 horas</p>
-							<p class="local-minicurso"><strong>Local</strong>: A definir</p>
+						<div class="row">
+						<div class="col s12 m12 l12 hide-on-med-and-up	">
+								<div id="invista-patrocinio" class="row">
+									<h4 class="text-theme">Importante!</h4>
+									<p>
+										Para que cada minicurso ocorra são necessários ao menos 10 (dez) inscritos. No caso se algum minicurso não ocorrer os inscritos serão ressarcidos. <br>Os participantes poderão participar de mais de um minicurso, desde que os horários não coincidam.
+									</p>
+								</div>
+							</div>
+							<div class="col s12 m7 l8"> 
+								<p class="numero-minicurso">Minicurso 01</p>
+								<p class="data-minicurso">10 de Maio de 2017 - Quarta-feira / 14h00min às 18h00min<br>
+									11 de Maio de 2017 - Quinta-feira / 14h00min às 18h00min
+								</p>
+								<p class="titulo-minicurso">Título: “Geoestatística aplicada à Ciência do Solo”</p>
+								<p class="prelecionista-minicurso">Prof.ª responsável: Drª Michele Duarte de Menezes <br>Prelecionista: Pedro Veloso Gomes Batista e Fábio Arnaldo Pomar Avalos</p>
+								<p class="carga-minicurso">Carga horária total: 8 horas</p>
+								<p class="local-minicurso"><strong>Local</strong>: A definir</p>
+							</div>
+							<div class="col s12 m5 l4 hide-on-small-only">
+								<div id="invista-patrocinio" class="row">
+									<h4 class="text-theme">Importante!</h4>
+									<p>
+										Para que cada minicurso ocorra são necessários ao menos 10 (dez) inscritos. No caso se algum minicurso não ocorrer os inscritos serão ressarcidos. <br>Os participantes poderão participar de mais de um minicurso, desde que os horários não coincidam.
+									</p>
+								</div>
+							</div>
 						</div>
+						
 						<hr>
 						<div>
 							<p class="numero-minicurso">Minicurso 02</p>
@@ -65,6 +83,7 @@
 					</div>
 
 				</div>
+				
 
 			</div>
 		</div>

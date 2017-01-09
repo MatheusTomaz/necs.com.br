@@ -40,8 +40,8 @@
           <?php if($alerta){ ?>
           <div class="row">
             <div class="col s12 m12 l12">
-              <div class='card-panel "<?php $alerta['class'] ?>"'>
-              <span class="white-text"><?php $alerta['mensagem'] ?>
+              <div class='card-panel <?php echo $alerta['class'] ?>'>
+              <span class="white-text"><?php echo $alerta['mensagem'] ?>
                 </span>
               </div>
             </div>
