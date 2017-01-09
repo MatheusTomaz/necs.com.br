@@ -12,6 +12,8 @@ necs.controller('cadastroParticipanteController', function($scope, $rootScope, $
         $scope.class = " ";
         $scope.valor = 0;
         $scope.num = 0;
+        $scope.nEstaCadastrado = false;
+        $scope.estaCadastrado = false;
 
         $scope.cadastrarParticipante = function(){
             // console.log($scope.data);
