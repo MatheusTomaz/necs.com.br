@@ -4,7 +4,7 @@ $dataObj = file_get_contents("php://input");
         // Cria um stdClass
 $objData = json_decode($dataObj);
 
-$data['token'] = '08F541D8D282499D8384D538377B6916';
+$data['token'] = '4307F43C05C44A4A88D8EB17FE1F269F';
 $data['email'] = 'math.tomaz1@gmail.com';
 $data['currency'] = 'BRL';
 $data['itemId1'] = $objData->cpfParticipante;

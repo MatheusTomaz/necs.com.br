@@ -4,7 +4,7 @@
 				<div class="row">
 					<div class="col s12 m10 offset-l2 l8 offset-m1 center">
 						<img src="<?php echo base_url('assets/img/titulo_home.jpg'); ?>" class="responsive-img">
-						<p class="waves-effect waves-light btn-primary btn-large space-patrocinador"> <i class="material-icons left">edit</i> Inscrição</p>
+						<a class="waves-effect waves-light btn-primary btn-large space-patrocinador" href="<?php echo base_url('main/cadastroParticipante'); ?>"> <i class="material-icons left">edit</i> Inscrição</a>
 					</div>
 				</div>
 			</div>
@@ -99,13 +99,13 @@
 							<tr>
 								<td>Princípios básicos para formulação e mistura de fertilizantes <br>(Duração: 4 horas)</td>
 								<td>R$ 20,00</td>
-								
+
 							</tr>
-							<tr>					
+							<tr>
 								<td>Mapeamento digital de solos <br>(Duração: 4 horas)</td>
 								<td>R$ 20,00</td>
 							</tr>
-							<tr>							
+							<tr>
 								<td>Influência da nutrição mineral na qualidade dos produtos agrícolas <br>(Duração: 4 horas)</td>
 								<td>R$ 20,00</td>
 							</tr>
@@ -122,7 +122,7 @@
 					<div class="row campo-nota-inscricao">
 						<span class="nota-inscricao">Serão disponibilizadas 40 vagas por minicurso.</span>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>

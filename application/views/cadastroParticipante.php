@@ -23,15 +23,28 @@
     <div ng-controller='cadastroParticipanteController'>
         <?php $this->load->view('sections/navbar'); ?>
         <div class="container">
-            <div id="popup-valor">
+            <div id="popup-logado" ng-show="estaCadastrado">
+                <p>
+                    <strong>{{nomeUsuario}}</strong>
+                    <br>
+                    <a href class="white-text">logout</a>
+                </p>
+            </div>
+            <div id="popup-title" ng-show="estaCadastrado">
                 <p>
                     <strong>Valor da inscrição</strong>
-                    <br>
+                </p>
+            </div>
+            <div id="popup-valor" ng-show="estaCadastrado">
+                <p>
                     <h5 class="white-text">R$ {{valor}}</h5>
                 </p>
             </div>
 
-            <section id="menuCadastro">
+
+
+
+            <section id="menuCadastro" ng-hide="estaCadastrado || nEstaCadastrado">
                 <div class="row">
                     <div class="col l12 m12 s12 justificado">
                         <h3 class="text-theme contato-titulo">Cadastro</h3>
@@ -44,7 +57,7 @@
                                     Não possuo cadastro
                                 </span>
                                 <div id="cadastroMenu" class="valign-wrapper">
-                                    <button class="valign waves-effect waves-light btn btn-inscricao green darken-1">QUERO ME CADASTRAR</button>
+                                    <button class="valign waves-effect waves-light btn btn-inscricao green darken-1" ng-click="candidatoCadastrar()">QUERO ME CADASTRAR</button>
                                 </div>
                             </div>
                         </div>
@@ -58,17 +71,17 @@
                                 </span>
                                 <div id="cadastroMenu" class="valign-wrapper">
                                     <form class="valign" method="post" name="formLoginCadastro">
-                                        <div class="input-field form-group col m12 s12">
+                                        <div class="input-field form-group col m12 s12 white-text">
                                             <i class="material-icons prefix white-text">account_circle</i>
-                                            <input id="loginEmail" ng-model="data.loginEmailParticipante" name="loginEmailParticipante" type="text" class="validate" required>
+                                            <input id="loginEmail" ng-model="data.loginEmailParticipante" name="loginEmailParticipante" type="email" class="validate white-text" required>
                                             <label for="name">Email</label>
                                         </div>
-                                        <div class="input-field form-group col m12 s12">
+                                        <div class="input-field form-group col m12 s12 white-text">
                                             <i class="material-icons prefix white-text">vpn_key</i>
-                                            <input id="loginSenha" ng-model="data.loginSenhaParticipante" name="loginSenhaParticipante" type="text" class="validate" required>
+                                            <input id="loginSenha" ng-model="data.loginSenhaParticipante" name="loginSenhaParticipante" type="password" class="validate white-text" required>
                                             <label for="name">Senha</label>
                                         </div>
-                                        <button class="waves-effect waves-light btn btn-inscricao green darken-1">Entrar</button>
+                                        <button ng-disabled="formLoginCadastro.$invalid" ng-click="logar()" class="waves-effect waves-light btn btn-inscricao green darken-1">Entrar</button>
                                     </form>
                                 </div>
                             </div>
@@ -134,6 +147,11 @@
                                     <label for="senhaParticipante">Senha</label>
                                 </div>
                             </div>
+                        </div>
+                        <div class="input-field col m12 s12">
+                            <button ng-disabled="formInscricao.$invalid" type="submit" name="enviar" value="enviar" ng-click="cadastrarParticipante()" class="waves-effect waves-light btn btn-inscricao green darken-1">
+                                INSCREVER-SE
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -346,9 +364,10 @@
                     </div>
                 </div>
             </section>
+
             <div ng-show="estaCadastrado" class="row">
                 <div class="input-field col m12 s12">
-                    <button ng-disabled="formInscricao.$invalid" type="submit" name="enviar" value="enviar" ng-click="pagamentoParticipante()" class="waves-effect waves-light btn btn-inscricao green darken-1">
+                    <button ng-disabled="!data.categoria" type="submit" name="enviar" value="enviar" ng-click="pagamentoParticipante()" class="waves-effect waves-light btn btn-inscricao green darken-1">
                         INSCREVER-SE
                     </button>
                 </div>

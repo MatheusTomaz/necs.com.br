@@ -18,6 +18,7 @@
 .link-accent{
 	color: #77B03D;
 }
+
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
@@ -50,6 +51,40 @@ input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #795548;
 }
+
+#menuCadastro input:not([type]):focus:not([readonly]),
+#menuCadastro input[type=text]:focus:not([readonly]),
+#menuCadastro input[type=password]:focus:not([readonly]),
+#menuCadastro input[type=email]:focus:not([readonly]),
+#menuCadastro input[type=url]:focus:not([readonly]),
+#menuCadastro input[type=time]:focus:not([readonly]),
+#menuCadastro input[type=date]:focus:not([readonly]),
+#menuCadastro input[type=datetime]:focus:not([readonly]),
+#menuCadastro input[type=datetime-local]:focus:not([readonly]),
+#menuCadastro input[type=tel]:focus:not([readonly]),
+#menuCadastro input[type=number]:focus:not([readonly]),
+#menuCadastro input[type=search]:focus:not([readonly]),
+#menuCadastro textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+#menuCadastro input:not([type]):focus:not([readonly]) + label,
+#menuCadastro input[type=text]:focus:not([readonly]) + label,
+#menuCadastro input[type=password]:focus:not([readonly]) + label,
+#menuCadastro input[type=email]:focus:not([readonly]) + label,
+#menuCadastro input[type=url]:focus:not([readonly]) + label,
+#menuCadastro input[type=time]:focus:not([readonly]) + label,
+#menuCadastro input[type=date]:focus:not([readonly]) + label,
+#menuCadastro input[type=datetime]:focus:not([readonly]) + label,
+#menuCadastro input[type=datetime-local]:focus:not([readonly]) + label,
+#menuCadastro input[type=tel]:focus:not([readonly]) + label,
+#menuCadastro input[type=number]:focus:not([readonly]) + label,
+#menuCadastro input[type=search]:focus:not([readonly]) + label,
+#menuCadastro textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: white;
+}
+
 .input-field .prefix.active{
 	color: #5D4037;
 }
@@ -103,7 +138,7 @@ nav{
 	border: 1px solid #5D4037;
 }
 #inscricao{
-	
+
 }
 .cd-timeline-content h2 {
   color: #795548;
