@@ -222,7 +222,14 @@ footer.page-footer {
 a{
   color: #77B03D;
 }
-
+.patrocinio-targa{
+  background-color: #77B03D;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-size: 24px;
+  font-weight: 300;
+}
 
 /* ================== HOSPEDAGEM ==================*/
 .hospedagem-titulo{
