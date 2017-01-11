@@ -22,7 +22,7 @@
 		<?php 
 		$this->load->view('sections/home');
 		?>
-	</header>
+	</header> <!--
 	<main>
 		<div class="container">
 			<div class="row">
@@ -40,6 +40,6 @@
 		</main>
 		<?php
 		$this->load->view('sections/footer');
-		?>
+		?> -->
 	</body>
 	</html>
