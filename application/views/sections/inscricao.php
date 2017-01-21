@@ -25,7 +25,7 @@
 							<a href="#inscricao" class="waves-effect waves-light btn-large btn-primary btn-insc disabled">ME INSCREVER</a>
 						</div>
 						<div class="row">
-							<span>Inscrições à partir de 20/01/2017</span>
+							<span>Inscrições em breve</span>
 						</div>
 					</div>
 					<div class="col s12 m12 l12">

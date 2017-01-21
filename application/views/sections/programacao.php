@@ -37,7 +37,7 @@
 												</tr>
 												<tr>
 													<td>18h00min às 19h10min</td>
-													<td>Solenidade de Abertura<br><br>Palestra 01<br>“Título a definir”<br>Prof. Dr. Luiz Roberto Guimarães Guilherme<br>
+													<td>Solenidade de Abertura<br><br>Palestra 01<br> “Solo seguro, alimento seguro.”<br>Prof. Dr. Luiz Roberto Guimarães Guilherme<br>
 													<strong>Local</strong>: Salão de Convenções
 													</td>
 												</tr>
@@ -127,7 +127,7 @@
 												<tr>
 													<td>19h50min às 20h50min</td>
 													<td>Palestra 04 <br>
-														“Título a definir” <br>
+														“Organismos do solo e a recuperação de áreas degradadas”<br>
 														Prelecionista: Prof. Dr. Marco Aurélio Carbone <br>
 														<strong>Local</strong>: Salão de Convenções
 													</td>

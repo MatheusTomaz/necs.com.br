@@ -28,7 +28,7 @@
 									11 de Maio de 2017 - Quinta-feira / 14h00min às 18h00min
 								</p>
 								<p class="titulo-minicurso">Título: “Geoestatística aplicada à Ciência do Solo”</p>
-								<p class="prelecionista-minicurso">Prof.ª responsável: Drª Michele Duarte de Menezes <br>Prelecionista: Pedro Veloso Gomes Batista e Fábio Arnaldo Pomar Avalos</p>
+								<p class="prelecionista-minicurso">Prof.ª responsável: Drª Michele Duarte de Menezes <br>Prelecionista: Msc. Pedro Veloso Gomes Batista e Msc. Fábio Arnaldo Pomar Avalos</p>
 								<p class="carga-minicurso">Carga horária total: 8 horas</p>
 								<p class="local-minicurso"><strong>Local</strong>: A definir</p>
 							</div>

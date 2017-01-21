@@ -136,7 +136,7 @@ class Main extends CI_Controller {
 			$this->email->initialize($config);
 
 			$this->email->from('noreply@scsufla.com', 'Contato Site');
-			$this->email->to('wellytonmarcos@gmail.com');
+			$this->email->to('necs.dcs.ufla@gmail.com');
 
 			$this->email->subject('Contato Site');
 
