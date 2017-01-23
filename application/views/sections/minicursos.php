@@ -80,6 +80,15 @@
 							<p class="carga-minicurso">Carga horária total: 4 horas</p>
 							<p class="local-minicurso"><strong>Local</strong>: A definir</p>
 						</div>
+						<hr>
+						<div>
+							<p class="numero-minicurso">Roteiro Pedológico</p>
+							<p class="data-minicurso">12 de Maio de 2017 - Sexta-feira / Horário a definir</p>
+
+							<p class="titulo-minicurso">Título: “Roteiro de Manejo e Adequabilidade de Uso da Terra”</p>
+							<p class="prelecionista-minicurso">Prelecionista: Prof. Dr. Geraldo César de Oliveira</p>
+							<p class="local-minicurso"><strong>Local</strong>: A definir</p>
+						</div>
 					</div>
 
 				</div>

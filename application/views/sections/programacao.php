@@ -220,6 +220,7 @@
 										</table>
 									</div>
 								</li>
+								<!--
 								<li>
 									<div class="collapsible-header programacao-header"><i class="material-icons">today</i>12 de Maio de 2017 - Sexta-feira</div>
 									<div class="collapsible-body">
@@ -244,7 +245,7 @@
 										</table>
 									</div>
 								</li>
-
+							-->
 							</ul>
 						</div>
 
