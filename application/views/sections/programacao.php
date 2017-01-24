@@ -91,7 +91,7 @@
 													<td>14h00min às 18h00min</td>
 													<td>Minicurso 01 <br>
 														Prof.ª responsável: Drª Michele Duarte de Menezes <br>
-														Prelecionista: Pedro Veloso Gomes Batista e Fábio Arnaldo Pomar Avalos<br>
+														Prelecionista: Msc. Pedro Veloso Gomes Batista e Msc. Fábio Arnaldo Pomar Avalos<br>
 														Título: “Geoestatística aplicada à Ciência do Solo” <br>
 														Carga horária total: 8 horas - <strong>Local</strong>: A definir<br>
 														<br>

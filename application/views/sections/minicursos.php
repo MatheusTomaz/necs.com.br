@@ -83,11 +83,12 @@
 						<hr>
 						<div>
 							<p class="numero-minicurso">Roteiro Pedológico</p>
-							<p class="data-minicurso">12 de Maio de 2017 - Sexta-feira / Horário a definir</p>
+							<p class="data-minicurso">12 de Maio de 2017 - Sexta-feira / 07h00min às 18h00mm</p>
 
-							<p class="titulo-minicurso">Título: “Roteiro de Manejo e Adequabilidade de Uso da Terra”</p>
-							<p class="prelecionista-minicurso">Prelecionista: Prof. Dr. Geraldo César de Oliveira</p>
-							<p class="local-minicurso"><strong>Local</strong>: A definir</p>
+							<p class="titulo-minicurso">Título: “Roteiro pedo-agronômico: solos do Sul de Minas, Campo das vertentes, e implicações para manejo.”</p>
+							<p class="prelecionista-minicurso">Professores responsáveis:<br>Prof. Dr Geraldo César Oliveira<br>Prof. Dr Bruno Montoani Silva<br>Prof. Dr Sérgio Henrique Godinho Silva</p>
+							<p class="carga-minicurso">Carga horária total: 11 horas</p>
+							<p class="local-minicurso"><strong>Local</strong>: Saída da portaria da UFLA</p>
 						</div>
 					</div>
 
