@@ -18,7 +18,7 @@
 					<div class="col s12 m6 l6">
 						<div class="row">
 							<h5>Já sou inscrito</h5>
-							<a href="<?php echo base_url('main/login');?>" class="waves-effect waves-light btn-large btn-primary btn-insc disabled">ACOMPANHAR INSCRIÇÃO</a>
+							<a href="" class="waves-effect waves-light btn-large btn-primary btn-insc disabled">ACOMPANHAR INSCRIÇÃO</a>
 						</div>
 						<div class="row">
 							<h5>Ainda não me inscrevi</h5>
