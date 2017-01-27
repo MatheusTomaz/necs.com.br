@@ -1,3 +1,8 @@
+<?
+header("Access-Control-Allow-Methods: GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,14 +20,14 @@
 	<script src="<?=base_url('assets/js/jquery.js')?>"></script>
 	<script src="<?=base_url('assets/js/materialize.min.js')?>"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-	
+
 </head>
 <body>
 	<header>
-		<?php 
+		<?php
 		$this->load->view('sections/home');
 		?>
-	</header> 
+	</header>
 	<main><!--
 		<div class="container">
 			<div class="row">
@@ -33,13 +38,12 @@
 				A segunda edição do Simpósio em Ciência do Solo da UFLA será realizada em 2017 com o tema: “Interfaces, Desafios e Inovações” e propõe a difusão do conhecimento em Ciência do Solo sob uma perspectiva interdisciplinar e inovadora, estimulando a articulação e a troca de ideias, informações, experiências e conhecimentos entre os participantes do simpósio, possibilitando ainda a submissão de trabalhos.</p>
 				</div>
 			</div>
--->
-			<?php 
+			<?php
 			$this->load->view('sections/patrocinio');
 			?>
 		</main>
 		<?php
 		$this->load->view('sections/footer');
-		?> 
+		?>
 	</body>
 	</html>

@@ -103,6 +103,22 @@ class Main extends CI_Controller {
             );
         $this->load->view('cadastroParticipante',$dados);
     }
+    public function retorno()
+    {
+
+        $dados = array(
+            'titulo' => 'II SCS | Inscrição'
+            );
+        $this->load->view('retorno',$dados);
+    }
+    public function uploadArquivo()
+    {
+
+        $dados = array(
+            'titulo' => 'II SCS | Inscrição'
+            );
+        $this->load->view('uploadArquivo',$dados);
+    }
 
 	public function contato()
 	{

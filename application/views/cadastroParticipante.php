@@ -27,7 +27,7 @@
                 <p>
                     <strong>{{nomeUsuario}}</strong>
                     <br>
-                    <a href class="white-text">logout</a>
+                    <a href="<?=base_url('main/cadastroParticipante');?>" class="white-text">logout</a>
                 </p>
             </div>
             <div id="popup-title" ng-show="estaCadastrado">
@@ -41,7 +41,7 @@
                 </p>
             </div>
 
-
+            <!-- <button class="valign waves-effect waves-light btn btn-inscricao green darken-1" ng-click="buscarStatus()">QUERO ME CADASTRAR</button> -->
 
 
             <section id="menuCadastro" ng-hide="estaCadastrado || nEstaCadastrado">
@@ -104,34 +104,39 @@
                                 </div>
                                 <div class="input-field col m4 s6">
                                     <i class="material-icons prefix">recent_actors</i>
-                                    <input id="CPF" ng-model="data.cpfParticipante" name="cpfParticipante" type="text" class="validate" required>
+                                    <input id="CPF" ng-model="data.cpfParticipante"  maxlength="11"  numbers-only name="cpfParticipante" type="text" class="validate" required>
                                     <label for="CPF">CPF</label>
                                 </div>
                                 <div class="input-field col m4 s6">
                                     <i class="material-icons prefix">recent_actors</i>
-                                    <input id="rg" ng-model="data.rg" name="rg" type="text" class="validate" required>
+                                    <input id="rg" ng-model="data.rg" numbers-only name="rg" type="text" class="validate" required>
                                     <label for="rg">RG</label>
                                 </div>
                                 <div class="input-field col m4 s6">
                                     <i class="material-icons prefix">perm_contact_calendar</i>
                                     <input id="nascimento" ng-model="data.nascimento" name="nascimento" type="text" class="datepicker" required placeholder="Data de nascimento">
                                 </div>
-                                <div class="input-field col m6 s12">
+                                <div class="input-field col m8 s12">
+                                    <i class="material-icons prefix">work</i>
+                                    <input id="profissao" ng-model="data.profissao" name="profissao" type="tel" class="validate" required>
+                                    <label for="profissao">Profissão</label>
+                                </div>
+                                <div class="input-field col m4 s12">
                                     <i class="material-icons prefix">phone</i>
                                     <input id="telefone" ng-model="data.telefone" name="telefone" type="tel" class="validate" required>
                                     <label for="telefone">Telefone</label>
                                 </div>
-                                <div class="input-field col m6 s12">
+                                <div class="input-field col m4 s12">
                                     <i class="material-icons prefix">language</i>
                                     <input id="nacionalidade" ng-model="data.nacionalidade" name="nacionalidade" type="text" class="validate" required>
                                     <label for="nacionalidade">Nacionalidade</label>
                                 </div>
-                                <div class="input-field col m6 s12">
+                                <div class="input-field col m4 s12">
                                     <i class="material-icons prefix">my_location</i>
                                     <input id="cidade" ng-model="data.cidade" name="cidade" type="text" class="validate" required>
                                     <label for="cidade">Cidade</label>
                                 </div>
-                                <div class="input-field col m6 s12">
+                                <div class="input-field col m4 s12">
                                     <i class="material-icons prefix">location_on</i>
                                     <input id="estado" ng-model="data.estado" name="estado" type="text" class="validate" required>
                                     <label for="estado">Estado</label>
@@ -156,7 +161,52 @@
                     </div>
                 </form>
             </section>
-            <section id="categoriaInscricao" ng-show="estaCadastrado">
+
+            <section id='pedidoFeito' ng-hide="!pedidoFeito">
+                <div class="row">
+                        <br><br><br><br>
+                    <div class="card green darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title ">
+                                <h3 class="text-theme contato-titulo white-text">Seu pedido foi computado! Acompanhe a situação e SUBMETA SEU RESUMO pelo R-Code!</h3>
+                                <h5 class="text-theme contato-titulo"><button type="submit" name="enviar" value="enviar" class="waves-effect waves-light btn brown center-align" onclick="window.location.href='http://www.roboticajr.com.br/sisqrcode/';">
+                                    ACESSAR R-CODE
+                                </button></h5>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pedidos" ng-hide="!temPedidoNRealizado">
+                <div class="row">
+                    <div class="col l12 m12 s12 justificado">
+                        <h3 class="text-theme contato-titulo">Inscrição não finalizada</h3>
+                    </div>
+                </div>
+                <div class="col s12 m12">
+                    <div class="card brown">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                {{descricaoPedidoNRealizado}}
+                                <div class="right">
+                                    <b>R$ {{valorPedidoNRealizado}}</b>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="card-action right-align white-text">
+                            <button type="submit" name="enviar" value="enviar" ng-click="cancelarInscricaoNFinalizada()" class="waves-effect waves-light btn brown darken-1">
+                                CANCELAR E FAZER OUTRA INSCRIÇÂO
+                            </button>
+                            <button type="submit" name="enviar" value="enviar" ng-click="pagarPedidoNFinalizado()" class="waves-effect waves-light btn green darken-1">
+                                PAGAR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="categoriaInscricao" ng-show="estaCadastrado && !temPedidoNRealizado && !pedidoFeito">
                 <div class="row">
                     <div class="col l12 m12 s12 justificado">
                         <h3 class="text-theme contato-titulo">Categoria</h3>
@@ -249,7 +299,36 @@
                     </div>
                 </div>
             </section>
-            <section id="minicursos" ng-show="estaCadastrado">
+
+
+            <section id="compMatricula" ng-show="estaCadastrado && !temPedidoNRealizado  && !pedidoFeito &&
+            ((data.categoria == 'grad') || (data.categoria == 'grad+') || (data.categoria == 'pos+') || (data.categoria == 'pos'))">
+                <div class="row">
+                    <form name="envioMatricula">
+                        <div class="col l12 m12 s12 justificado">
+                            <h3 class="text-theme contato-titulo">Comprovante de matrícula</h3>
+                        </div>
+                        <div class="col s12 m12">
+                            <div class="card brown">
+                                <div class="card-content white-text">
+                                    <div class="file-field input-field">
+                                        <div class="btn green darken-1">
+                                            <span>File</span>
+                                            <input type="file" file-model="myFile" valid-file required validate="validarPDF()" ng-model='data.myFile'>
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input class="file-path validate" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+
+            <section id="minicursos" ng-show="estaCadastrado && !temPedidoNRealizado  && !pedidoFeito">
                 <div class="row">
                     <div class="col l12 m12 s12 justificado">
                         <h3 class="text-theme contato-titulo">Minicursos</h3>
@@ -365,24 +444,28 @@
                 </div>
             </section>
 
-            <div ng-show="estaCadastrado" class="row">
+            <div ng-show="estaCadastrado && !temPedidoNRealizado  && !pedidoFeito" class="row">
                 <div class="input-field col m12 s12">
-                    <button ng-disabled="!data.categoria" type="submit" name="enviar" value="enviar" ng-click="pagamentoParticipante()" class="waves-effect waves-light btn btn-inscricao green darken-1">
+                    <button ng-disabled="!data.categoria || (envioMatricula.$invalid && ((data.categoria == 'grad') || (data.categoria == 'grad+') || (data.categoria == 'pos+') || (data.categoria == 'pos')))" type="submit" name="enviar" value="enviar" ng-click="pagamentoParticipante()" class="waves-effect waves-light btn btn-inscricao green darken-1">
                         INSCREVER-SE
                     </button>
                 </div>
+
+            </div>
+            <div class="row">
                 <h3 class="text-theme contato-titulo">Alguma dúvida?<br>Entre em Contato</h3>
                 <h5 class="contato-texto">Telefone: +55 (35) 3829-1255 <br> E-mail: necs.dcs.ufla@gmail.com</h5>
             </div>
-            <form id="pagseguro" action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+            <!-- <form id="pagseguro" action="https://sandbox.pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
                 <input type="hidden" name="code" id="code" value="" />
-            </form>
+            </form> -->
         </div>
         <script src="<?=base_url('assets/js/jquery.js')?>"></script>
         <script src="<?=base_url('assets/js/angular.min.js')?>"></script>
-        <script src="<?=base_url('assets/js/controller.js')?>"></script>
+
         <script src="<?=base_url('assets/js/materialize.min.js')?>"></script>
-        <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+        <script type="text/javascript" src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+        <script src="<?=base_url('assets/js/controller.js')?>"></script>
         <footer>
             <?php
             $this->load->view('sections/footer');
